@@ -21,7 +21,8 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-// ini laptop faiq
+// ini laptop lana
+// ini baris 25
 
 Route::get('/', function () {
     return view('welcome');
