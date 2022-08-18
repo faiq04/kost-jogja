@@ -29,13 +29,13 @@ Route::get('kost', function () {
     return view('kost');
 });
 
-
+// wahyu
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
-Route::get('/pesan1',[Pesan1Controller::class,'index'])->name('pesan1');
-Route::get('/pesan2',[Pesan2Controller::class,'index'])->name('pesan2');
-Route::get('/pesan3',[Pesan3Controller::class,'index'])->name('pesan3');
-Route::get('/pesan4',[Pesan4Controller::class,'index'])->name('pesan4');
-Route::get('/pesanan1',[Pesanan1Controller::class,'index'])->name('pesanan1');
-Route::get('/cari',[CariController::class,'index'])->name('cari');
+Route::get('/pesan1', [Pesan1Controller::class, 'index'])->name('pesan1');
+Route::get('/pesan2', [Pesan2Controller::class, 'index'])->name('pesan2');
+Route::get('/pesan3', [Pesan3Controller::class, 'index'])->name('pesan3');
+Route::get('/pesan4', [Pesan4Controller::class, 'index'])->name('pesan4');
+Route::get('/pesanan1', [Pesanan1Controller::class, 'index'])->name('pesanan1');
+Route::get('/cari', [CariController::class, 'index'])->name('cari');
