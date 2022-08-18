@@ -21,6 +21,8 @@ use App\Http\Controllers\HomeController;
 |
 */
 
+// ini laptop faiq
+
 Route::get('/', function () {
     return view('welcome');
 });
