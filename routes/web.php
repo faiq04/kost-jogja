@@ -31,7 +31,7 @@ Route::get('kost', function () {
     return view('kost');
 });
 
-// ini laptop woody
+
 
 Auth::routes();
 
