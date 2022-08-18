@@ -29,7 +29,7 @@ Route::get('kost', function () {
     return view('kost');
 });
 
-// wahyu
+
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
