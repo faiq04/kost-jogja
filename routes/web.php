@@ -30,7 +30,6 @@ Route::get('kost', function () {
     return view('kost');
 });
 
-// kirik
 
 Auth::routes();
 
